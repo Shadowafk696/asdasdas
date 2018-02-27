@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C0ED2B1B047E617111FD65 /* libPods-foursquare2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351AB83C0551712787AD5C81 /* libPods-foursquare2.a */; };
+		F33D397020450B4800A333DF /* points.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D396F20450B4800A333DF /* points.swift */; };
 		F342DF3D203CFE0200EAB7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF3C203CFE0200EAB7BB /* AppDelegate.swift */; };
-		F342DF3F203CFE0200EAB7BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF3E203CFE0200EAB7BB /* ViewController.swift */; };
+		F342DF3F203CFE0200EAB7BB /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF3E203CFE0200EAB7BB /* MapController.swift */; };
 		F342DF42203CFE0200EAB7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F342DF40203CFE0200EAB7BB /* Main.storyboard */; };
 		F342DF44203CFE0200EAB7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F342DF43203CFE0200EAB7BB /* Assets.xcassets */; };
 		F342DF47203CFE0200EAB7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F342DF45203CFE0200EAB7BB /* LaunchScreen.storyboard */; };
+		F342DF4F203CFF6D00EAB7BB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF4E203CFF6D00EAB7BB /* LoginController.swift */; };
+		F342DF51203CFFD100EAB7BB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF50203CFFD100EAB7BB /* User.swift */; };
+		F342DF53203D001200EAB7BB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF52203D001200EAB7BB /* Post.swift */; };
+		F342DF55203D005500EAB7BB /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF54203D005500EAB7BB /* Date+extension.swift */; };
+		F342DF57203D008100EAB7BB /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F342DF56203D008100EAB7BB /* UIColor+extension.swift */; };
+		F342DF5B203D065F00EAB7BB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F342DF5A203D065F00EAB7BB /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351AB83C0551712787AD5C81 /* libPods-foursquare2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foursquare2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800B6DDFC7B587CFD1C21907 /* Pods-foursquare2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foursquare2.release.xcconfig"; path = "Pods/Target Support Files/Pods-foursquare2/Pods-foursquare2.release.xcconfig"; sourceTree = "<group>"; };
+		A64B6AAE77AA0B6C1E186223 /* Pods-foursquare2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foursquare2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foursquare2/Pods-foursquare2.debug.xcconfig"; sourceTree = "<group>"; };
+		F33D396F20450B4800A333DF /* points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = points.swift; sourceTree = "<group>"; };
 		F342DF39203CFE0200EAB7BB /* foursquare2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foursquare2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F342DF3C203CFE0200EAB7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F342DF3E203CFE0200EAB7BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F342DF3E203CFE0200EAB7BB /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		F342DF41203CFE0200EAB7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F342DF43203CFE0200EAB7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F342DF46203CFE0200EAB7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F342DF48203CFE0300EAB7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F342DF4E203CFF6D00EAB7BB /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F342DF50203CFFD100EAB7BB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F342DF52203D001200EAB7BB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F342DF54203D005500EAB7BB /* Date+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		F342DF56203D008100EAB7BB /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		F342DF5A203D065F00EAB7BB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C0ED2B1B047E617111FD65 /* libPods-foursquare2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2C67FFA8EDB40CDE284FA06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				351AB83C0551712787AD5C81 /* libPods-foursquare2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D13B7EDB552BBAB55D6A399F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A64B6AAE77AA0B6C1E186223 /* Pods-foursquare2.debug.xcconfig */,
+				800B6DDFC7B587CFD1C21907 /* Pods-foursquare2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F342DF30203CFE0100EAB7BB = {
 			isa = PBXGroup;
 			children = (
+				F342DF5A203D065F00EAB7BB /* Podfile */,
 				F342DF3B203CFE0200EAB7BB /* foursquare2 */,
 				F342DF3A203CFE0200EAB7BB /* Products */,
+				D13B7EDB552BBAB55D6A399F /* Pods */,
+				B2C67FFA8EDB40CDE284FA06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +94,17 @@
 			isa = PBXGroup;
 			children = (
 				F342DF3C203CFE0200EAB7BB /* AppDelegate.swift */,
-				F342DF3E203CFE0200EAB7BB /* ViewController.swift */,
+				F342DF3E203CFE0200EAB7BB /* MapController.swift */,
+				F342DF4E203CFF6D00EAB7BB /* LoginController.swift */,
 				F342DF40203CFE0200EAB7BB /* Main.storyboard */,
 				F342DF43203CFE0200EAB7BB /* Assets.xcassets */,
 				F342DF45203CFE0200EAB7BB /* LaunchScreen.storyboard */,
 				F342DF48203CFE0300EAB7BB /* Info.plist */,
+				F342DF50203CFFD100EAB7BB /* User.swift */,
+				F342DF52203D001200EAB7BB /* Post.swift */,
+				F342DF54203D005500EAB7BB /* Date+extension.swift */,
+				F342DF56203D008100EAB7BB /* UIColor+extension.swift */,
+				F33D396F20450B4800A333DF /* points.swift */,
 			);
 			path = foursquare2;
 			sourceTree = "<group>";
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F342DF4B203CFE0300EAB7BB /* Build configuration list for PBXNativeTarget "foursquare2" */;
 			buildPhases = (
+				276C634567510F22BD5BF33D /* [CP] Check Pods Manifest.lock */,
 				F342DF35203CFE0200EAB7BB /* Sources */,
 				F342DF36203CFE0200EAB7BB /* Frameworks */,
 				F342DF37203CFE0200EAB7BB /* Resources */,
+				D8A606B972039E23CA123357 /* [CP] Embed Pods Frameworks */,
+				36C3BC857273AECF857E1C19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F342DF5B203D065F00EAB7BB /* Podfile in Resources */,
 				F342DF47203CFE0200EAB7BB /* LaunchScreen.storyboard in Resources */,
 				F342DF44203CFE0200EAB7BB /* Assets.xcassets in Resources */,
 				F342DF42203CFE0200EAB7BB /* Main.storyboard in Resources */,
@@ -131,13 +180,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		276C634567510F22BD5BF33D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foursquare2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36C3BC857273AECF857E1C19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-foursquare2/Pods-foursquare2-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-foursquare2/Pods-foursquare2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A606B972039E23CA123357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-foursquare2/Pods-foursquare2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F342DF35203CFE0200EAB7BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F342DF3F203CFE0200EAB7BB /* ViewController.swift in Sources */,
+				F342DF51203CFFD100EAB7BB /* User.swift in Sources */,
+				F342DF55203D005500EAB7BB /* Date+extension.swift in Sources */,
+				F342DF3F203CFE0200EAB7BB /* MapController.swift in Sources */,
+				F342DF57203D008100EAB7BB /* UIColor+extension.swift in Sources */,
+				F33D397020450B4800A333DF /* points.swift in Sources */,
+				F342DF4F203CFF6D00EAB7BB /* LoginController.swift in Sources */,
 				F342DF3D203CFE0200EAB7BB /* AppDelegate.swift in Sources */,
+				F342DF53203D001200EAB7BB /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +371,7 @@
 		};
 		F342DF4C203CFE0300EAB7BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64B6AAE77AA0B6C1E186223 /* Pods-foursquare2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = foursquare2/Info.plist;
@@ -272,6 +384,7 @@
 		};
 		F342DF4D203CFE0300EAB7BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800B6DDFC7B587CFD1C21907 /* Pods-foursquare2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = foursquare2/Info.plist;
@@ -301,6 +414,7 @@
 				F342DF4D203CFE0300EAB7BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
